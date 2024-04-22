@@ -2,22 +2,30 @@
   "schemaVersion": 1,
   "id": "your_phone_linging",
   "version": "${version}",
-
   "name": "Your Phone Linging",
   "description": "",
-  "authors": [],
-  "contact": {},
-
+  "authors": [
+    "Eden Urias (ConfusingFool93",
+    "AvacadoWizard120)"
+  ],
+  "contact": {
+    "website": "https://youtube.com/@confusingfool93",
+    "repo": "https://github.com/edenjudeurias/Your Phone Linging"
+  },
   "license": "MIT",
   "icon": "assets/your_phone_linging/icon.png",
-
   "environment": "*",
-  "entrypoints": {},
-
-
+  "entrypoints": {
+    "client": [
+      "io.github.avacadowizard120.your_phone_linging.client.YourPhoneLingingClient"
+    ],
+    "main": [
+      "io.github.avacadowizard120.your_phone_linging.YourPhoneLinging"
+    ]
+  },
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
