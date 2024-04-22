@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "your_phone_linging",
+  "version": "${version}",
+
+  "name": "Your Phone Linging",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/your_phone_linging/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
